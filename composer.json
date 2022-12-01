@@ -1,0 +1,21 @@
+{
+    "name": "trillzglobal/iso8583",
+    "description": "ISO8583 Standard for Postilion Transaction.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Trillzglobal\\Iso8583\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Ojo",
+            "email": "trillzglobal@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "leandroandreaci/iso8583": "dev-master"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5c87f6affddffb65d50d19aa0eba1350",
+    "packages": [
+        {
+            "name": "leandroandreaci/iso8583",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leandreaci/iso8583.git",
+                "reference": "14255499dfa428c4b36f3af934aa4a609ecedaf1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leandreaci/iso8583/zipball/14255499dfa428c4b36f3af934aa4a609ecedaf1",
+                "reference": "14255499dfa428c4b36f3af934aa4a609ecedaf1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.2@dev"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Andromeda\\ISO8583\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Leandro Andreaci",
+                    "email": "leandro@andromedadev.com"
+                }
+            ],
+            "description": "A module to iso8583",
+            "support": {
+                "issues": "https://github.com/leandreaci/iso8583/issues",
+                "source": "https://github.com/leandreaci/iso8583/tree/master"
+            },
+            "time": "2020-09-21T15:47:48+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "leandroandreaci/iso8583": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

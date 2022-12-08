@@ -40,16 +40,18 @@ class Field_127{
     }
 
     function _pack($field127){
-        $packed = "";
+         $packed ="";
         if(!is_array($field127))return false;
         $binary =  $this->createBitmap($field127);
-        $packed = $packed.$this->bitconvert($binary);
+        print_r("\n Binary: ".$binary);
+        $packed = $this->bitconvert($binary);
+        
         $load  = $field127;
         unset($load["0"]);
         ksort($load);
+        print_r("\n Packed 1: ".$packed);
         foreach($load as $key=>$value){
             $packed = $packed.$value;
-     
         }
     
         return $packed;

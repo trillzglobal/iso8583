@@ -40,8 +40,8 @@ class Parse {
         $this->payload = $payload;
         if($this->state=="closed")return false;
 
-        $header = $this->getheader(strlen($payload));
-        $full = $header.$payload;
+        // $header = $this->getheader(strlen($payload));
+        $full = $payload;
 
         if($payload == false){
             $this->colourLog("Message format Not Supported : ".$this->payload." \n", 'error', "Error");
